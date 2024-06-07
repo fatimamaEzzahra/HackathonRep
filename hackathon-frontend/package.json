@@ -15,10 +15,12 @@
     "@mui/material": "^5.15.19",
     "@react-pdf/renderer": "^3.4.4",
     "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.2.1",
-    "styled-components": "^6.1.11"
+    "styled-components": "^6.1.11",
+    "swiper": "^11.1.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

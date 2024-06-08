@@ -14,7 +14,7 @@ import './Services.css'
 const Services = () => {
   return (
     <div>
-      <div className='content'>
+      <div className='services-container'>
      <h2 className='title-main'>خدمات  </h2>
      <div className="categories">
       <div className="category-first-row">
@@ -49,12 +49,12 @@ const Services = () => {
       <div className="category-second-row">
       <div className="category-item large-item" id='fourth'>
         <div className="para">
-          <p>Best</p>
-          <h4>Interactive</h4>
-          <h2>TABLETS</h2>
+          <p></p>
+          <h4></h4>
+          <h2>سباك</h2>
           <Link to='products/category/tablette'><button>تصفح </button></Link>
           </div>
-          <img src={plumbier} alt="" className='tablet-image'  />
+          <img src={plumbier} alt="" className='plumbier-image'  />
       </div>
       <div className="category-item" id='fifth'>
     <div className="para">

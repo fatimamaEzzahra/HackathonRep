@@ -12,7 +12,6 @@ const Home = () => {
      <HeroSwiper/>
      <Services/>
      <Features/>
-   
     </div>
   )
 }

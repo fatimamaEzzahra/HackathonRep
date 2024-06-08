@@ -9,8 +9,8 @@
  justify-content: center;
  padding: 10px 10px 20px 20px;
 } */
-.content{
- margin: 40px;
+.services-container{
+ margin: 50px;
 }
 .title-main{
  display: flex;
@@ -86,7 +86,7 @@
 #fourth{
  background-color: #ffcf4b;
 }
-.tablet-image{
+.plumbier-image{
  width:180px;
  position: absolute; 
  bottom: 0%; 

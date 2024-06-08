@@ -67,8 +67,8 @@ export function StickyNavbar() {
   );
  
   return (
-    <div className="-m-6 max-h-[768px] w-[calc(100%+48px)] ">
-      <Navbar className=" top-0 z-10 h-max  rounded-none px- py-1 lg:px-8 lg:py-4">
+    <div className="">
+      <Navbar className="sticky top-0 z-10 h-max  rounded-none  py-1 lg:px-8 lg:py-4 nav-bar">
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"
@@ -79,19 +79,19 @@ export function StickyNavbar() {
           </Typography>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
-            <div className="flex items-center gap-x-1">
+            <div className="flex items-center gap-x-7 ">
 
               <Button
                 variant="text"
                 size="sm"
-                className="hidden lg:inline-block"
+                className="hidden lg:inline-block auth"
               >
                 <span>الدخول كزبون</span>
               </Button>
               <Button
                 variant="gradient"
                 size="sm"
-                className="hidden lg:inline-block"
+                className="hidden lg:inline-block auth"
               >
                 <span>الدخول كمزود خدمة</span>
               </Button>
@@ -138,10 +138,10 @@ export function StickyNavbar() {
         <MobileNav open={openNav}>
           {navList}
           <div className="flex items-center gap-x-1">
-            <Button fullWidth variant="text" size="sm" className="">
+            <Button fullWidth variant="text" size="sm" className="auth">
               <span>الدخول كزبون</span>
             </Button>
-            <Button fullWidth variant="gradient" size="sm" className="">
+            <Button fullWidth variant="gradient" size="sm" className="auth">
               <span>الدخول كمزود خدمة</span>
             </Button>
           </div>

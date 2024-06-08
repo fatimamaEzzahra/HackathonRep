@@ -4,7 +4,7 @@ import Features from '../Components/HomeComp/Features'
 import Footer from '../Components/HomeComp/Footer'
 import HeroSwiper from '../Components/HomeComp/HeroSection'
 import  {  StickyNavbar } from '../Components/HomeComp/Navbar'
-import Services from './Services'
+import Services from '../Components/HomeComp/Services'
 
 const Home = () => {
   return (

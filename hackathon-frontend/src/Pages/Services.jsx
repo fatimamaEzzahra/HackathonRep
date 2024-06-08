@@ -8,6 +8,8 @@ import desktop from '../icons/desktop.png'
 import smartwatch from '../icons/smartwatch.png'
 import cleaner from '../images/cleanerwoman.png'
 import pinter from '../images/pinterman.png'
+import cooker from '../images/cooker.png'
+import plumbier from '../images/plumbier.png'
 import './Services.css'
 const Services = () => {
   return (
@@ -27,12 +29,12 @@ const Services = () => {
       </div>
       <div className="category-item" id='second'>
     <div className="para">
-      <p>New</p>
-      <h4>Smart</h4>
-      <h2>PHONES</h2>
+      <p></p>
+      <h4></h4>
+      <h2>طباخ</h2>
           <Link to='products/category/telephone'><button>تصفح </button></Link>
     </div>
-    <img src={smartphone} alt="" className='smartphone-image'/>
+    <img src={cooker} alt="" className='cooker-image'/>
       </div>
       <div className="category-item" id='third'>
       <div className="para">
@@ -52,7 +54,7 @@ const Services = () => {
           <h2>TABLETS</h2>
           <Link to='products/category/tablette'><button>تصفح </button></Link>
           </div>
-          <img src={tablet} alt="" className='tablet-image'  />
+          <img src={plumbier} alt="" className='tablet-image'  />
       </div>
       <div className="category-item" id='fifth'>
     <div className="para">

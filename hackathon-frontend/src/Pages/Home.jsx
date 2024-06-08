@@ -5,8 +5,8 @@ import  {  StickyNavbar } from '../Components/HomeComp/Navbar'
 const Home = () => {
   return (
     <div>
+     <div style={{marginBottom:'40px'}}>
      <StickyNavbar/>
-     <HeroSwiper/>
     </div>
   )
 }

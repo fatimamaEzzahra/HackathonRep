@@ -1,10 +1,10 @@
 import React from 'react'
-import { NavbarWithMegaMenu } from '../Components/HomeComp/Navbar'
+import  {  StickyNavbar } from '../Components/HomeComp/Navbar'
 
 const Home = () => {
   return (
     <div>
-     <NavbarWithMegaMenu/>
+     <StickyNavbar/>
     </div>
   )
 }

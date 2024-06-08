@@ -1,6 +1,6 @@
 
 
-import './HeroSwiper.css'
+// import './HeroSwiper.css'
 
 
 const HeroSwiper = () => {

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 // import logo from '../../icons/TECH-removebg-preview.png'
-import './Navbar.css'
 import WatchIcon from '@mui/icons-material/Watch';
 import {
   Navbar,

@@ -1,5 +1,6 @@
 import React from "react";
 import logo from '../../images/logo.png'
+import './Navbar.css'
 
 import {
   Navbar,
@@ -74,11 +75,12 @@ export function StickyNavbar() {
             href="#"
             className="mr-4 cursor-pointer py-1.5 font-medium"
           >
-            <img src={logo} alt="" />
+            <img src={logo} alt="" className="logo-nav"/>
           </Typography>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
             <div className="flex items-center gap-x-1">
+              
               <Button
                 variant="text"
                 size="sm"

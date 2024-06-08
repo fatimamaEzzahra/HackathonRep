@@ -1,11 +1,13 @@
-import React, { useState } from 'react'
+
 
 import './HeroSwiper.css'
-import { useTranslation } from "react-i18next";
+
 
 const HeroSwiper = () => {
-  
-  const {t} = useTranslation();
+    const  services = [{
+       
+    }]
+
 
  
 
@@ -14,7 +16,7 @@ const HeroSwiper = () => {
      
       <div className="hero-line">
         
-     <img src={headPhone} alt="" className="hero-image"/>
+     <img alt="" className="hero-image"/>
      <div className="hero-para" >
       <p>{t("Beats Solo")}</p>
       <h4>{t("Wireless")}</h4>

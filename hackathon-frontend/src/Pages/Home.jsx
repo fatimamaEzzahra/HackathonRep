@@ -9,6 +9,9 @@ const Home = () => {
   return (
      <div style={{marginBottom:'100px',marginLeft:'0'}}>
      <StickyNavbar/>
+     <HeroSwiper/>
+     <Services/>
+     <Features/>
     </div>
   )
 }

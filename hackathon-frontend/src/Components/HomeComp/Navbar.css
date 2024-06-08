@@ -108,3 +108,6 @@ margin-right: 0px;
 .sticky{
   margin-left: 0px;
 }
+body{
+  overflow-x:none ;
+}

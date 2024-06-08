@@ -5,7 +5,12 @@ import './HeroSwiper.css'
 
 const HeroSwiper = () => {
     const  services = [{
-       
+       {img:{}, title:"",description:"",takeservices:""},
+       {img:{}, title:"",description:"",takeservices:""},
+       {img:{}, title:"",description:"",takeservices:""},
+       {img:{}, title:"",description:"",takeservices:""},
+       {img:{}, title:"",description:"",takeservices:""},
+       {img:{}, title:"",description:"",takeservices:""},
     }]
 
 

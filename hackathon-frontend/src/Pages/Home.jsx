@@ -1,6 +1,7 @@
 
 
 import Features from '../Components/HomeComp/Features'
+import Footer from '../Components/HomeComp/Footer'
 import HeroSwiper from '../Components/HomeComp/HeroSection'
 import  {  StickyNavbar } from '../Components/HomeComp/Navbar'
 import Services from './Services'
@@ -12,6 +13,7 @@ const Home = () => {
      <HeroSwiper/>
      <Services/>
      <Features/>
+     <Footer/>
     </div>
   )
 }

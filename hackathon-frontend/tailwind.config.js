@@ -8,7 +8,7 @@ export default {
     extend: {
       colors:{
         "yellow":"#FACC27",
-        "backgra":"#F6F6F6",
+        "backgra":"#343A40",
       }
     },
   },

@@ -15,7 +15,7 @@ const Services = () => {
   return (
     <div>
       <div className='services-container'>
-     <h2 className='title-main'>خدمات  </h2>
+     <h2 className='title-main '>خدمات  </h2>
      <div className="categories">
       <div className="category-first-row">
       <div className="category-item large-item" id='first'>

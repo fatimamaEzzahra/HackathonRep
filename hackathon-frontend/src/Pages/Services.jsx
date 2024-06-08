@@ -6,6 +6,8 @@ import tablet from '../icons/tablet.png'
 import smartphone from '../icons/smartphone2.png'
 import desktop from '../icons/desktop.png'
 import smartwatch from '../icons/smartwatch.png'
+import cleaner from '../images/cleanerwoman.png'
+import pinter from '../images/pinterman.png'
 import './Services.css'
 const Services = () => {
   return (
@@ -16,12 +18,12 @@ const Services = () => {
       <div className="category-first-row">
       <div className="category-item large-item" id='first'>
         <div className="para">
-          <p>Trend</p>
-          <h4>Devices</h4>
-          <h2>LAPTOP</h2>
+          <p></p>
+          <h4></h4>
+          <h2>صباغ</h2>
           <Link to='products/category/pc'><button>تصفح </button></Link>
           </div>
-          <img src={laptop} alt="" className='laptop-image'  />
+          <img src={pinter} alt="" className='pinter-image'  />
       </div>
       <div className="category-item" id='second'>
     <div className="para">
@@ -34,12 +36,12 @@ const Services = () => {
       </div>
       <div className="category-item" id='third'>
       <div className="para">
-          <p>Enjoy</p>
-          <h4>With</h4>
-          <h2>HEADPHONES</h2>
+          <p></p>
+          <h4></h4>
+          <h2>منظفات  <br />بيوت </h2>
           <Link to='products/category/ecouteurs'><button>تصفح </button></Link>
         </div>
-        <img src={headphone} alt="" className='headphone-image'/>
+        <img src={cleaner} alt="" className='cleaner-image'/>
       </div>
       </div>
       <div className="category-second-row">

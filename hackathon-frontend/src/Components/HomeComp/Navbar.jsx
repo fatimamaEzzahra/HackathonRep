@@ -30,7 +30,7 @@ export function StickyNavbar() {
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
-          Pages
+          الرئيسية
         </a>
       </Typography>
       <Typography
@@ -40,7 +40,7 @@ export function StickyNavbar() {
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
-          Account
+          خدماتنا
         </a>
       </Typography>
       <Typography
@@ -50,7 +50,7 @@ export function StickyNavbar() {
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
-          Blocks
+          من نحن
         </a>
       </Typography>
       <Typography
@@ -60,40 +60,40 @@ export function StickyNavbar() {
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
-          Docs
+          تواصل معنا
         </a>
       </Typography>
     </ul>
   );
  
   return (
-    <div className="-m-6 max-h-[768px] w-[calc(100%+48px)] overflow-scroll">
-      <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
+    <div className="-m-6 max-h-[768px] w-[calc(100%+48px)] ">
+      <Navbar className="sticky top-0 z-10 h-max  rounded-none px- py-1 lg:px-8 lg:py-4">
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"
             href="#"
-            className="mr-4 cursor-pointer py-1.5 font-medium"
+            className=" cursor-pointer py-1.5 font-medium"
           >
             <img src={logo} alt="" className="logo-nav"/>
           </Typography>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
             <div className="flex items-center gap-x-1">
-              
+
               <Button
                 variant="text"
                 size="sm"
                 className="hidden lg:inline-block"
               >
-                <span>Log In</span>
+                <span>الدخول كزبون</span>
               </Button>
               <Button
                 variant="gradient"
                 size="sm"
                 className="hidden lg:inline-block"
               >
-                <span>Sign in</span>
+                <span>الدخول كمزود خدمة</span>
               </Button>
             </div>
             <IconButton
@@ -139,10 +139,10 @@ export function StickyNavbar() {
           {navList}
           <div className="flex items-center gap-x-1">
             <Button fullWidth variant="text" size="sm" className="">
-              <span>Log In</span>
+              <span>الدخول كزبون</span>
             </Button>
             <Button fullWidth variant="gradient" size="sm" className="">
-              <span>Sign in</span>
+              <span>الدخول كمزود خدمة</span>
             </Button>
           </div>
         </MobileNav>

@@ -1,4 +1,6 @@
 import React from "react";
+import logo from '../../images/logo.png'
+
 import {
   Navbar,
   MobileNav,
@@ -72,7 +74,7 @@ export function StickyNavbar() {
             href="#"
             className="mr-4 cursor-pointer py-1.5 font-medium"
           >
-            Material Tailwind
+            <img src={logo} alt="" />
           </Typography>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>

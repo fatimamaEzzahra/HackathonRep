@@ -11,9 +11,8 @@ const Home = () => {
      <div style={{marginBottom:'100px',marginLeft:'0'}}>
      
      <HeroSwiper/>
-     <Services/>
      <Features/>
-     <Footer/>
+     <Services/>
     </div>
   )
 }

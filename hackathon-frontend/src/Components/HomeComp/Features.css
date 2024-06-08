@@ -15,9 +15,10 @@
  font-size: 25px;
 }
 .intro-container{
- display: flex;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
  justify-content: center;
- gap: 27px;
+ gap: 10px;
  margin: 30px;
 }
 .icon-features{
@@ -26,6 +27,7 @@
  align-items: center;
  color:#FACC27;
 }
+
 @media screen and (max-width:959px) {
  .intro-container{
   display: grid;

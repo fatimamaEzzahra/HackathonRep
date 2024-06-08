@@ -1,7 +1,7 @@
 import React from "react";
 import logo from '../../images/logo.png'
 import './Navbar.css'
-
+import { Link } from "react-router-dom";
 import {
   Navbar,
   MobileNav,
@@ -30,7 +30,7 @@ export function StickyNavbar() {
         className="p-1 font-normal text-black"
       >
         <a href="#" className="flex items-center">
-          الرئيسية
+         <Link to="/">الرئيسية</Link> 
         </a>
       </Typography>
       <Typography
@@ -40,7 +40,7 @@ export function StickyNavbar() {
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
-          خدماتنا
+        <Link to="/services">خدماتنا</Link> 
         </a>
       </Typography>
       <Typography
@@ -50,7 +50,7 @@ export function StickyNavbar() {
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
-          من نحن
+        <Link to="/aboutus"> من نحن</Link>
         </a>
       </Typography>
       <Typography
@@ -60,7 +60,7 @@ export function StickyNavbar() {
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
-          تواصل معنا
+        <Link to="/contactus">تواصل معنا</Link> 
         </a>
       </Typography>
     </ul>
@@ -86,14 +86,14 @@ export function StickyNavbar() {
                 size="sm"
                 className="hidden lg:inline-block auth"
               >
-                <span>الدخول كزبون</span>
+               <Link to="/loginClient"><span>الدخول كزبون</span></Link> 
               </Button>
               <Button
                 variant="gradient"
                 size="sm"
                 className="hidden lg:inline-block auth text-black"
               >
-                <span>الدخول كمزود خدمة</span>
+                <Link to="/signinClient"><span>الدخول كمزود خدمة</span></Link> 
               </Button>
             </div>
             <IconButton
@@ -139,10 +139,11 @@ export function StickyNavbar() {
           {navList}
           <div className="flex items-center gap-x-1">
             <Button fullWidth variant="text" size="sm" className="auth">
-              <span>الدخول كزبون</span>
+            <Link to="/loginClient"><span>الدخول كزبون</span></Link> 
             </Button>
             <Button fullWidth variant="gradient" size="sm" className="auth">
-              <span>الدخول كمزود خدمة</span>
+            <Link to="/signinClient"><span>الدخول كمزود خدمة</span></Link> 
+
             </Button>
           </div>
         </MobileNav>

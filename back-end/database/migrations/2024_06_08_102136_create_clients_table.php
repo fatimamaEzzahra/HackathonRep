@@ -11,22 +11,17 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('travailleurs', function (Blueprint $table) {
+        Schema::create('clients', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
             $table->string('cin');
             $table->string('nom');
             $table->string('prenom');
-            $table->string('telephon');
-            $table->string('miete');
-            $table->string('type_contrat');
-            $table->integer('age');
-            $table->float('prices_services');
             $table->string('ville');
             $table->string('adress_full');
-            $table->string('photo')->nullable();
             $table->string('email')->unique();
-            $table->boolean('is_travailleurs')->default(false);
+            $table->boolean('is_client')->default(false);
+            $table->string('photo')->nullable();
         });
     }
 
@@ -35,6 +30,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('travailleurs');
+        Schema::dropIfExists('clients');
     }
 };

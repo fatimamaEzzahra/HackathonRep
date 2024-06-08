@@ -3,29 +3,36 @@
 // import './HeroSwiper.css'
 
 
+
 const HeroSwiper = () => {
-  
+  const Services = [
+    {title:"أهلا بك في بيتــك"},
+    {title:"أهلا بك في بيتــك"},
+    {title:"أهلا بك في بيتــك"},
+    {title:"أهلا بك في بيتــك"},
+    {title:"أهلا بك في بيتــك"},
+    {title:"أهلا بك في بيتــك"},
+
+  ];
   
 
  
 
 
   return (
-     
-      <div className="hero-line">
-        
-     {/* <img  alt="" className="hero-image"/>
-     <div className="hero-para" >
-      <p>{t("Beats Solo")}</p>
-      <h4>{t("Wireless")}</h4>
-      <h2>{t("HEADPHONE")}</h2>
-     <button>{t("Shop now")}</button> */}
-      {/* </div> */}
-      <h1>Hello</h1>
-      </div>
-     
-    
-  )
+    <div className="hero-line">
+      {Services.map((service, index) => (
+        <div key={index}>
+          <img src={service.image} alt="" className="hero-image" />
+          <div>
+            <h1>{service.title}</h1>
+            <p>{service.description}</p>
+            <button>{service.sercheNow}</button>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
 }
 
 export default HeroSwiper

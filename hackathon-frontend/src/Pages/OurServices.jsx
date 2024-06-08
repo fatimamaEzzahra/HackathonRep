@@ -4,6 +4,7 @@ import Services from '../Components/HomeComp/Services'
 const OurServices = () => {
   return (
     <div>
+     
      <Services/>
     </div>
   )

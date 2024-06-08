@@ -9,6 +9,7 @@ export default {
       colors:{
         "yellow":"#FACC27",
         "backgra":"#343A40",
+        "black":'black',
       }
     },
   },

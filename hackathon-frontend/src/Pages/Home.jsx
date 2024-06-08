@@ -9,7 +9,7 @@ import Services from '../Components/HomeComp/Services'
 const Home = () => {
   return (
      <div style={{marginBottom:'100px',marginLeft:'0'}}>
-     <StickyNavbar/>
+     
      <HeroSwiper/>
      <Services/>
      <Features/>

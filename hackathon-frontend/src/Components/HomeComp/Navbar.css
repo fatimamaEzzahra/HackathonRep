@@ -1,106 +1,6 @@
-/* .account{
- display: flex;
- align-items: center;
- justify-content: center;
+.nav-bar{
+  border-bottom: 1px gray solid;
 }
-.dropDownProfile{
- color: black;
- background-color: #ffffff;
- border: 0.3px solid rgb(199, 199, 199);
-
- position: absolute;
- box-shadow: 5px  5px 12px rgb(167, 167, 167) ;
- display: flex;
- align-items: center;
- justify-content: center;
- top: 3.4rem;
- right: 0.5rem;
- height: 150px;
- width: 140px;
-border-radius: 10px;
-}
-.dropDownProfile::before{
- content:'';
- position:absolute;
- top: -0.51rem;
- right: 5rem;
- width: 15px;
- height: 15px;
- background-color: #fff;
- transform: rotate(45deg);
- border-left: 0.3px solid rgb(199, 199, 199);
- border-top: 1px solid rgb(199, 199, 199);
-}
-.dropDownProfile ul{
-  width: 90%;
-}
-.dropDownProfile ul li{
- border-radius: 23px;
- height: 35px;
- cursor: pointer;
- display: flex;
- align-items: center;
- justify-content: space-around;
- font-size: 15px;
- width: 100%;
- font-family:  'Arial Narrow Bold', sans-serif;
-}
-.dropDownProfile ul li a{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  gap: 13px;
-}
-/* .dropDownProfile ul li:not(:first-child){
-  width: 110px;
-}
-.dropDownProfile ul li:first-child{
-  font-size: 15px;
-  width: 100%;
-  font-family:  'Arial Narrow Bold', sans-serif;
-} */
-/* .dropDownProfile ul li:not(:first-child):hover{
- background-color: #f5f3f3;
- width: 110px;
-}
-.pointer{
- cursor: pointer;
-}
-.acc-cart{
- display: flex;
- 
- flex-direction: column;
- justify-content: space-around;
- align-items: center;
-} */ 
-/* Link{
-  cursor: pointer;
-} */
-/* .glassbar{
-  opacity: 100%;
-    background: rgba(255, 255, 255, 0.4);
-border-radius: 16px;
-backdrop-filter: blur(10.5px);
--webkit-backdrop-filter: blur(10.5px);
-border: 1px solid rgba(255, 255, 255, 0.18);
-}
-.navv{
-  height: 40px;
-}
-.right-side-nav{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 25px;
-} */
-/* .account-btn{
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-} */
-
 .logo-nav{
   height: 70px;
 margin-right: 0px;
@@ -110,4 +10,10 @@ margin-right: 0px;
 }
 body{
   overflow-x:none ;
+}
+.auth{
+  font-weight: 700 !important;
+  background-color: rgb(230, 230, 230);
+ margin-left: 5px;
+ padding: 10px;
 }

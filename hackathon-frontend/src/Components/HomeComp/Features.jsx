@@ -1,7 +1,8 @@
 import React from 'react'
-import { BsInfoSquare } from 'react-icons/bs'
+import { BsArrowBarUp, BsInfoSquare } from 'react-icons/bs'
 import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
 import RoofingIcon from '@mui/icons-material/Roofing';
+import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import HowToRegIcon from '@mui/icons-material/HowToReg';
 import { FaAccessibleIcon, FaAffiliatetheme, FaAlignCenter, FaCheckCircle, FaCreditCard, FaGoodreads, FaHeadphones, FaPaypal, FaSdCard, FaSeedling, FaSuperpowers, FaTruck } from 'react-icons/fa'
 import './Features.css'
@@ -15,7 +16,7 @@ const Features = () => {
   return (
     <div className='container-features'>
       
-     <h1>مميزاتنا</h1>
+     <h1> <PlayArrowIcon/> مميزاتنا</h1> 
      
      <p className='qst'>لماذا تطبيق خدمات دارك ؟</p>
     

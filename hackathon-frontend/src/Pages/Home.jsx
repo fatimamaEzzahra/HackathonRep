@@ -1,14 +1,14 @@
 
 
+import Features from '../Components/HomeComp/Features'
 import HeroSwiper from '../Components/HomeComp/HeroSection'
 import  {  StickyNavbar } from '../Components/HomeComp/Navbar'
+import Services from './Services'
 
 const Home = () => {
   return (
-     <div style={{marginBottom:'40px',marginLeft:'0'}}>
+     <div style={{marginBottom:'100px',marginLeft:'0'}}>
      <StickyNavbar/>
-     <HeroSwiper/>
-  
     </div>
   )
 }

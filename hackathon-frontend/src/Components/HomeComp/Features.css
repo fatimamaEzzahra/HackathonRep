@@ -1,0 +1,34 @@
+.container-features{
+ margin-top: 90px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.container-features h1{
+ font-size:50px;
+ color: #FACC27;
+}
+.container-features .qst{
+ font-size: 30px;
+}
+.container-features h4{
+ font-size: 25px;
+}
+.intro-container{
+ display: flex;
+ justify-content: center;
+ gap: 27px;
+ margin: 30px;
+}
+.icon-features{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color:#FACC27;
+}
+@media screen and (max-width:959px) {
+ .intro-container{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+ }
+}
